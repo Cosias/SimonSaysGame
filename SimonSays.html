@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset = "utf-8"> 
     <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Press+Start+2P|VT323" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <script type="text/javascript" src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <script type="text/javascript" src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
     <link rel="stylesheet" type="text/css" href="SimonSays.css">
-    <script type="text/javascript" src = "SimonSays.js"></script>
+    <script type="text/javascript" src = "SimonSays.js" defer></script>
   </head>
 
   <body>
@@ -25,11 +25,11 @@
           <div id = 'blue' class = 'simonBtn'></div>
         </div>
         
-        <div id = simonMid>
+        <div id = 'simonMid'>
           <h1 id = 'simon'>Simon</h1>
           
           <div class = 'row' id= 'btns'>
-            <div class = 'simBtn'><div id = 'count'><p id = countTxt></p></div><div id = 'label'>COUNT</div></div>
+            <div class = 'simBtn'><div id = 'count'><p id = 'countTxt'></p></div><div id = 'label'>COUNT</div></div>
             <div class = 'simBtn'><button id = "start"></button><div id = 'label'>START</div></div>
             <div class = 'simBtn'><div id = 'led'></div><button id = 'strict'></button><div id = 'label'>STRICT</div></div>
           </div>  
